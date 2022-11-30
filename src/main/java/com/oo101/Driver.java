@@ -15,7 +15,7 @@ public class Driver {
 
     public static void main(String[] args) {
 
-         Driver driver = new Driver(new Car("Cool Car", 30));
+         Driver driver = new Driver(new Car("Cool Car", new GasolineEngine()));
         System.out.println(         driver.speedUp() );
 
 
